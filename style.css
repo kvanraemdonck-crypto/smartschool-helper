@@ -1,0 +1,81 @@
+body {
+    background-color #121212;
+    color #e0e0e0;
+    font-family 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin 0;
+    padding 0;
+}
+
+header {
+    background-color #1f1f1f;
+    text-align center;
+    padding 40px 20px;
+    border-bottom 3px solid #9b59b6;
+}
+
+header h1 {
+    margin 0;
+    color #fff;
+    font-size 2.5rem;
+}
+
+header p {
+    color #aaa;
+    margin-top 10px;
+}
+
+.container {
+    max-width 800px;
+    margin 30px auto;
+    padding 0 20px;
+}
+
+.card {
+    background-color #1e1e1e;
+    border 1px solid #2d2d2d;
+    border-radius 12px;
+    padding 25px;
+    margin-bottom 25px;
+    box-shadow 0 4px 15px rgba(0,0,0,0.5);
+}
+
+h2 {
+    color #fff;
+    margin-top 0;
+    border-bottom 1px solid #333;
+    padding-bottom 10px;
+}
+
+ul {
+    padding-left 20px;
+    line-height 1.8;
+}
+
+.btn {
+    display inline-block;
+    background-color #9b59b6;
+    color #fff;
+    text-decoration none;
+    padding 12px 24px;
+    font-weight bold;
+    border-radius 6px;
+    margin-top 15px;
+    transition background 0.2s;
+}
+
+.btnhover {
+    background-color #8e44ad;
+}
+
+.privacy p {
+    color #aaa;
+    font-size 0.95rem;
+    line-height 1.6;
+}
+
+footer {
+    text-align center;
+    padding 20px;
+    color #666;
+    font-size 0.85rem;
+}
