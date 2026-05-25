@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "My Smartschool Helper",
+  "version": "1.0",
+  "description": "Voegt handige extra functies toe aan het Smartschool-platform.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.smartschool.be/*"
+      ],
+      "js": ["content.js", "games.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
